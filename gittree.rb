@@ -5,11 +5,11 @@
 class Gittree < Formula
   desc ""
   homepage "https://github.com/mucansever/gittree"
-  version "1.0.3"
+  version "1.0.4"
 
   on_macos do
-    url "https://github.com/mucansever/gittree/releases/download/v1.0.3/gittree_1.0.3_darwin_all.tar.gz"
-    sha256 "7052ad2871e7feb91096f6ddee47e14885222412907bfd975c80c4216a85f9d4"
+    url "https://github.com/mucansever/gittree/releases/download/v1.0.4/gittree_1.0.4_darwin_all.tar.gz"
+    sha256 "7ca09b7f3de954e5e128d54d7c2c0762c5d79ab418de1b18f42083ba896e080d"
 
     def install
       bin.install "gittree"
@@ -19,8 +19,8 @@ class Gittree < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mucansever/gittree/releases/download/v1.0.3/gittree_1.0.3_linux_amd64.tar.gz"
-        sha256 "c7236af45a700e5a5fa0fffadca012df4e780a854dc386321b3dbeeeb09ad108"
+        url "https://github.com/mucansever/gittree/releases/download/v1.0.4/gittree_1.0.4_linux_amd64.tar.gz"
+        sha256 "27f518193fad6cfd011a7c9697a53f592f4501fadbc9938ec5809b756856f7dc"
 
         def install
           bin.install "bin/gittree"
@@ -29,8 +29,8 @@ class Gittree < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/mucansever/gittree/releases/download/v1.0.3/gittree_1.0.3_linux_arm64.tar.gz"
-        sha256 "4050bf3404388dfe2ee6f84e59a8993ca1ef761c77a87edb599dad7680751e14"
+        url "https://github.com/mucansever/gittree/releases/download/v1.0.4/gittree_1.0.4_linux_arm64.tar.gz"
+        sha256 "f8610a144be26c7e3a938b449a55d04e518001b33b4f51474852ad3876497be5"
 
         def install
           bin.install "bin/gittree"
